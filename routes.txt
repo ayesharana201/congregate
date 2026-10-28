@@ -1,0 +1,32 @@
+
+  GET|HEAD  / ................................................................................................................................................... home
+  GET|HEAD  admin/dashboard ...................................................................................................... admin.dashboard › routes/web.php:88
+  GET|HEAD  admin/login .................................................................................................................................. admin.login
+  POST      admin/login .............................................................................................. admin.login.submit › AdminLoginController@login
+  POST      admin/logout .................................................................................................. admin.logout › AdminLoginController@logout
+  GET|HEAD  admin/register ........................................................................................... admin.register › AdminRegisterController@create
+  POST      admin/register ...................................................................................... admin.register.store › AdminRegisterController@store
+  GET|HEAD  confirm-password .......................................................................... password.confirm › vendor/livewire/volt/src/VoltManager.php:34
+  GET|HEAD  dashboard .................................................................................................................. dashboard › routes/web.php:14
+  GET|HEAD  forgot-password ........................................................................... password.request › vendor/livewire/volt/src/VoltManager.php:34
+  GET|HEAD  livewire/livewire.js ......................................................................... Livewire\Mechanisms › FrontendAssets@returnJavaScriptAsFile
+  GET|HEAD  livewire/livewire.min.js.map ................................................................................... Livewire\Mechanisms › FrontendAssets@maps
+  GET|HEAD  livewire/preview-file/{filename} ................................................ livewire.preview-file › Livewire\Features › FilePreviewController@handle
+  POST      livewire/update .............................................................. default.livewire.update › Livewire\Mechanisms › HandleRequests@handleUpdate
+  POST      livewire/upload-file .............................................................. livewire.upload-file › Livewire\Features › FileUploadController@handle
+  GET|HEAD  login ................................................................................................ login › vendor/livewire/volt/src/VoltManager.php:34
+  GET|HEAD  login-choice ................................................................................................................................ login.choice
+  POST      logout ....................................................................................................................... logout › routes/auth.php:99
+  GET|HEAD  member/login ................................................................................................................................ member.login
+  POST      member/login ........................................................................................... member.login.submit › MemberLoginController@login
+  POST      member/logout ............................................................................................... member.logout › MemberLoginController@logout
+  GET|HEAD  register .......................................................................................... register › vendor/livewire/volt/src/VoltManager.php:34
+  GET|HEAD  reset-password/{token} ...................................................................... password.reset › vendor/livewire/volt/src/VoltManager.php:34
+  GET|HEAD  storage/{path} ...................................... storage.local › vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php:111
+  PUT       storage/{path} ............................... storage.local.upload › vendor/laravel/framework/src/Illuminate/Filesystem/FilesystemServiceProvider.php:119
+  GET|HEAD  up ........................................................... vendor/laravel/framework/src/Illuminate/Foundation/Configuration/ApplicationBuilder.php:224
+  GET|HEAD  verify-email ........................................................................... verification.notice › vendor/livewire/volt/src/VoltManager.php:34
+  GET|HEAD  verify-email/{id}/{hash} ................................................................................ verification.verify › Auth\VerifyEmailController
+
+                                                                                                                                                   Showing [28] routes
+
